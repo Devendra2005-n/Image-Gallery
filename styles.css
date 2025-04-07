@@ -1,0 +1,40 @@
+body {
+    background-color: #ead99b;
+    padding: 10px;
+    font-style: italic;
+}
+
+
+.filter-button {
+    background-color: black; 
+    color: white;           
+    border: none;           
+    margin: 5px;            
+    padding: 10px 20px;     
+    cursor: pointer;        
+    transition: background-color 0.3s ease; 
+}
+
+.filter-button:hover {
+    background-color: #333; 
+    box-shadow: white;
+}
+
+
+.gallery img {
+    margin-bottom: 25px;
+    transition: transform 0.3s ease;
+    padding: 20px;
+    box-shadow: white;
+}
+
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: white;
+}
+
+
+.text-center {
+    margin-bottom: 30px; 
+}
